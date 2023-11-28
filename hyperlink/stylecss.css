@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    color: white;
+}
+.img :hover{
+    width: 72px;
+    height: 72px;
+    transition: 1s ease;
+}
+h1 {
+    color:white;
+    text-align: left;
+    font-family: serif;
+    font-size: 2em;
+    margin-top: 20px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    transition: 0.5s;
+    color: black;
+}
+
+.gambar1 {
+    display: flex;
+    justify-content: center;
+}
+.h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.container {
+    font-size: 20px;
+}
+.pos {
+    display: flex;
+    justify-content: center;
+}
+.h2 {
+    text-align: center;
+}
+.atribut {
+    display: flex;
+    justify-content: center;
+}
+.centered {
+    text-align: center;
+}
+.centered-image {
+    width: 800px;
+    height: 454px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2.post-title {
+    font-size: 230%;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    text-align: center;
+}
+.foto {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
